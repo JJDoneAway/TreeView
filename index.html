@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Tree View</title>
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap-theme.css" rel="stylesheet">
+    <link href="./css/bootstrap-treeview.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <hr>
+            <h2>Searchable Tree</h2>
+            <div class="col-sm-4">
+                <h2>Input</h2>
+                <!-- <form> -->
+                <div class="form-group">
+                    <label for="input-search" class="sr-only">Search Tree:</label>
+                    <input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+                </div>
+                <div class="checkbox">
+                    <label>
+                <input type="checkbox" class="checkbox" id="chk-ignore-case" value="false">
+                Ignore Case
+              </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                <input type="checkbox" class="checkbox" id="chk-exact-match" value="false">
+                Exact Match
+              </label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                <input type="checkbox" class="checkbox" id="chk-reveal-results" value="false">
+                Reveal Results
+              </label>
+                </div>
+                <button type="button" class="btn btn-success" id="btn-search">Search</button>
+                <button type="button" class="btn btn-default" id="btn-clear-search">Clear</button>
+                <!-- </form> -->
+            </div>
+            <div class="col-sm-4">
+                <h2>Tree</h2>
+                <div id="treeview-searchable" class=""></div>
+            </div>
+            <div class="col-sm-4">
+                <h2>Results</h2>
+                <div id="search-output"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap-treeview.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+
+            var articleData = [{
+                text: 'Entertainment & Communication ',
+                icon: 'glyphicon glyphicon-tree-conifer',
+                nodes: [{
+                        text: 'Audio & Hi-Fi',
+                        icon: 'glyphicon glyphicon-tree-conifer',
+                        nodes: [{
+                                text: 'HEADPHONES',
+                                icon: 'glyphicon glyphicon-tree-conifer',
+                                nodes: [{
+                                        text: 'ON-EAR HEADPHONES',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: 'JAR-ENCEINTE MINI TETE MORT - 177576/1',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177576&variantNo=1&bundleNo=1&language=fr'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        text: 'IN-EAR HEADPHONES',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Speakers & Portable Audio',
+                                icon: 'glyphicon glyphicon-tree-conifer',
+                                nodes: [{
+                                        text: 'OUTDOOR SPEAKERS',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        text: 'WIRELESS SPEAKERS',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }
+                        ]
+                    },
+                    {
+                        text: 'GPS & Auto',
+                        icon: 'glyphicon glyphicon-tree-conifer',
+                        nodes: [{
+                                text: 'GPS',
+                                icon: 'glyphicon glyphicon-tree-conifer',
+                                nodes: [{
+                                        text: '',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        text: '',
+                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        nodes: [{
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            },
+                                            {
+                                                text: '',
+                                                icon: 'glyphicon glyphicon-barcode',
+                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'RADAR DETECTION SYSTEM',
+                                icon: 'glyphicon glyphicon-tree-conifer',
+                                nodes: [{
+                                    text: '',
+                                    nodes: [{
+                                            text: '',
+                                            icon: 'glyphicon glyphicon-barcode',
+                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                        },
+                                        {
+                                            text: '',
+                                            icon: 'glyphicon glyphicon-barcode',
+                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                        },
+                                        {
+                                            text: '',
+                                            icon: 'glyphicon glyphicon-barcode',
+                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                        },
+                                        {
+                                            text: '',
+                                            icon: 'glyphicon glyphicon-barcode',
+                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                        }
+                                    ]
+                                }]
+
+                            }
+                        ]
+                    }
+                ]
+            }];
+
+
+
+
+
+
+            var $searchableTree = $('#treeview-searchable').treeview({
+                data: articleData,
+            });
+
+            var search = function(e) {
+                var pattern = $('#input-search').val();
+                var options = {
+                    ignoreCase: $('#chk-ignore-case').is(':checked'),
+                    exactMatch: $('#chk-exact-match').is(':checked'),
+                    revealResults: $('#chk-reveal-results').is(':checked')
+                };
+                var results = $searchableTree.treeview('search', [pattern, options]);
+
+                var output = '<p>' + results.length + ' matches found</p>';
+                $.each(results, function(index, result) {
+                    output += '<p>- ' + result.text + '</p>';
+                });
+                $('#search-output').html(output);
+            }
+
+            $('#btn-search').on('click', search);
+            $('#input-search').on('keyup', search);
+
+            $('#btn-clear-search').on('click', function(e) {
+                $searchableTree.treeview('clearSearch');
+                $('#input-search').val('');
+                $('#search-output').html('');
+            });
+
+
+        });
+    </script>
+</body>
+
+</html>
