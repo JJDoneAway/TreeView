@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Tree View</title>
+    <title>Product Hierarchy Browser</title>
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-theme.css" rel="stylesheet">
     <link href="./css/bootstrap-treeview.css" rel="stylesheet">
@@ -13,46 +12,43 @@
 
 <body>
     <div class="container">
+        <h2>Product Hierarchy</h2>
         <div class="row">
-            <hr>
-            <h2>Searchable Tree</h2>
             <div class="col-sm-4">
-                <h2>Input</h2>
-                <!-- <form> -->
-                <div class="form-group">
-                    <label for="input-search" class="sr-only">Search Tree:</label>
-                    <input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Input</h2>
+                        <!-- <form> -->
+                        <div class="form-group">
+                            <label for="input-search" class="sr-only">Search Tree:</label>
+                            <input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" class="checkbox" id="chk-ignore-case" value="false">Ignore Case</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" class="checkbox" id="chk-exact-match" value="false">Exact Match</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" class="checkbox" id="chk-reveal-results" value="false">Reveal Results</label>
+                        </div>
+                        <button type="button" class="btn btn-success" id="btn-search">Search</button>
+                        <button type="button" class="btn btn-default" id="btn-clear-search">Clear</button>
+                        <!-- </form> -->
+                    </div>
                 </div>
-                <div class="checkbox">
-                    <label>
-                <input type="checkbox" class="checkbox" id="chk-ignore-case" value="false">
-                Ignore Case
-              </label>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2>Results</h2>
+                        <div id="search-output"></div>
+                    </div>
                 </div>
-                <div class="checkbox">
-                    <label>
-                <input type="checkbox" class="checkbox" id="chk-exact-match" value="false">
-                Exact Match
-              </label>
-                </div>
-                <div class="checkbox">
-                    <label>
-                <input type="checkbox" class="checkbox" id="chk-reveal-results" value="false">
-                Reveal Results
-              </label>
-                </div>
-                <button type="button" class="btn btn-success" id="btn-search">Search</button>
-                <button type="button" class="btn btn-default" id="btn-clear-search">Clear</button>
-                <!-- </form> -->
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-8">
                 <h2>Tree</h2>
                 <div id="treeview-searchable" class=""></div>
             </div>
-            <div class="col-sm-4">
-                <h2>Results</h2>
-                <div id="search-output"></div>
-            </div>
+
         </div>
     </div>
     <script src="./js/jquery.js"></script>
@@ -63,60 +59,60 @@
 
             var articleData = [{
                 text: 'Entertainment & Communication ',
-                icon: 'glyphicon glyphicon-tree-conifer',
+
                 nodes: [{
                         text: 'Audio & Hi-Fi',
-                        icon: 'glyphicon glyphicon-tree-conifer',
+
                         nodes: [{
                                 text: 'HEADPHONES',
-                                icon: 'glyphicon glyphicon-tree-conifer',
+
                                 nodes: [{
                                         text: 'ON-EAR HEADPHONES',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+%0AAND+dynLong_merchGroup:"30"+%0AAND+dynLong_merchGroupSub:"25"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=5&wt=json&indent="true"',
                                         nodes: [{
                                                 text: 'JAR-ENCEINTE MINI TETE MORT - 177576/1',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177576&variantNo=1&bundleNo=1&language=fr'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177576&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'NEO-MINI ENCEINTE ARCH BLC BLTH - 174029/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=174029&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'NEO-MINI ENCEINTE SPK1250 BLC - 155456/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=155456&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'BOSE- ENCEINTE SOUNDLINK MINI - 155745/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=155745&variantNo=1&bundleNo=1&language=fr'
                                             }
                                         ]
                                     },
                                     {
                                         text: 'IN-EAR HEADPHONES',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+%0AAND+dynLong_merchGroup:"30"+%0AAND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=5&wt=json&indent="true"',
                                         nodes: [{
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'SONY-LECTEUR MP4 ROUGE - 138566/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=138566&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'APP-IPOD NANO 16GO GRIS SIDERA - 153369/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=153369&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'IPOD NANO 8 GB - 663176/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=663176&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'APPLE IPOD SHUFFLE 2G - 145950/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=145950&variantNo=1&bundleNo=1&language=fr'
                                             }
                                         ]
                                     }
@@ -124,54 +120,54 @@
                             },
                             {
                                 text: 'Speakers & Portable Audio',
-                                icon: 'glyphicon glyphicon-tree-conifer',
+
                                 nodes: [{
                                         text: 'OUTDOOR SPEAKERS',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+%0AAND+dynLong_merchGroup:"5"+%0AAND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=5&wt=json&indent="true"',
                                         nodes: [{
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'URB-ENC FIESTA + NOMADE BTH - 177408/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177408&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'HAR-ENCEINTE AURA BLT NRE - 157119/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=157119&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'SUPERTOOTH ENCEINTES DISCO 28W - 124009',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=124009&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'SOUND-ENCEINTE MELODY MLD414 - 159759',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=159759&variantNo=1&bundleNo=1&language=fr'
                                             }
                                         ]
                                     },
                                     {
                                         text: 'WIRELESS SPEAKERS',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+                                        href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+%0AAND+dynLong_merchGroup:"5"+%0AAND+dynLong_merchGroupSub:"15"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=5&wt=json&indent="true"',
                                         nodes: [{
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'JBL-MINI ENCEINTE GO GRISE - 178566/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178566&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'JBL-MINI ENCEINTE GO NOIRE - 178536/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178536&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'BST-2 ENCEINTES PLAFOND AP707 BT - 388640/1',
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=388640&variantNo=1&bundleNo=1&language=fr'
                                             },
                                             {
-                                                text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+                                                text: 'HAR-ENCEINTE CLIP 2 NOIRE - 391704/1',
+                                                
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=391704&variantNo=1&bundleNo=1&language=fr'
                                             }
                                         ]
                                     }
@@ -182,57 +178,57 @@
                     },
                     {
                         text: 'GPS & Auto',
-                        icon: 'glyphicon glyphicon-tree-conifer',
+
                         nodes: [{
                                 text: 'GPS',
-                                icon: 'glyphicon glyphicon-tree-conifer',
+
                                 nodes: [{
                                         text: '',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+
                                         nodes: [{
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             }
                                         ]
                                     },
                                     {
                                         text: '',
-                                        icon: 'glyphicon glyphicon-tree-conifer',
+
                                         nodes: [{
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             },
                                             {
                                                 text: '',
-                                                icon: 'glyphicon glyphicon-barcode',
-                                                href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                                href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                             }
                                         ]
                                     }
@@ -240,28 +236,28 @@
                             },
                             {
                                 text: 'RADAR DETECTION SYSTEM',
-                                icon: 'glyphicon glyphicon-tree-conifer',
+
                                 nodes: [{
                                     text: '',
                                     nodes: [{
                                             text: '',
-                                            icon: 'glyphicon glyphicon-barcode',
-                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                            href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                         },
                                         {
                                             text: '',
-                                            icon: 'glyphicon glyphicon-barcode',
-                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                            href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                         },
                                         {
                                             text: '',
-                                            icon: 'glyphicon glyphicon-barcode',
-                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                            href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                         },
                                         {
                                             text: '',
-                                            icon: 'glyphicon glyphicon-barcode',
-                                            href: 'iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
+
+                                            href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/'
                                         }
                                     ]
                                 }]
@@ -278,7 +274,11 @@
 
 
             var $searchableTree = $('#treeview-searchable').treeview({
+                color: "#428bca",
+                expandIcon: 'glyphicon glyphicon-chevron-right',
+                collapseIcon: 'glyphicon glyphicon-chevron-down',
                 data: articleData,
+                enableLinks: true
             });
 
             var search = function(e) {
