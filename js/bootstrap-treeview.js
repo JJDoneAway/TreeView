@@ -695,7 +695,7 @@
 		indent: '<span class="indent"></span>',
 		icon: '<span class="icon"></span>',
 		linkText: '<span></span>',
-		link: '<a href="#" class="btn btn-info" target="_blank">Go to</a>',
+		link: '<a href="#" class="btn btn-default" target="_blank">Go to</a>',
 		badge: '<span class="badge"></span>'
 	};
 

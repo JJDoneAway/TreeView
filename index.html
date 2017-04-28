@@ -10,45 +10,54 @@
     <link href="./css/bootstrap-treeview.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <h2>Product Hierarchy</h2>
-        <div class="row">
+<body style="background-color:#1A3C7B">
+    <div class="container-fluid">
+        <div class="row well left-right-buffer top-buffer">
+            <h1 class="text-center">Product Hierarchy - MARIO FR</h1>
+            <div><a href="https://github.com/JJDoneAway/TreeView" target="_blank">Git project</a> / <a href="./taxonomy_pack1_v1.0.xlsx" target="_blank">Product Hirarchy definition</a></div>
+        </div>
+        <div class="row well left-right-buffer">
+            <div class="col-sm-8">
+              <div class="list-group">
+                  <div class="list-group-item list-group-item-info">Browse Article Tree</div>
+                  <div class="list-group-item">
+                      <div id="treeview-searchable" class=""></div>
+                  </div>
+              </div>            </div>
+
             <div class="col-sm-4">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h2>Input</h2>
-                        <!-- <form> -->
-                        <div class="form-group">
-                            <label for="input-search" class="sr-only">Search Tree:</label>
-                            <input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+                        <div class="list-group">
+                            <div class="list-group-item list-group-item-info">Search Articles</div>
+                            <div class="list-group-item">
+                                <div class="form-group">
+                                    <label for="input-search" class="sr-only">Search Tree:</label>
+                                    <input type="input" class="form-control" id="input-search" placeholder="Type to search..." value="">
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="checkbox" id="chk-ignore-case" value="false">Ignore Case</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="checkbox" id="chk-exact-match" value="false">Exact Match</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="checkbox" id="chk-reveal-results" value="false">Reveal Results</label>
+                                </div>
+                                <div class="top-buffer">
+                                    <button type="button" class="btn btn-default" id="btn-search">Search</button>
+                                    <button type="button" class="btn btn-default" id="btn-clear-search">Clear</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" class="checkbox" id="chk-ignore-case" value="false">Ignore Case</label>
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" class="checkbox" id="chk-exact-match" value="false">Exact Match</label>
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" class="checkbox" id="chk-reveal-results" value="false">Reveal Results</label>
-                        </div>
-                        <button type="button" class="btn btn-success" id="btn-search">Search</button>
-                        <button type="button" class="btn btn-default" id="btn-clear-search">Clear</button>
-                        <!-- </form> -->
                     </div>
                 </div>
-                <div class="row">
+                <div class="row top-buffer">
                     <div class="col-sm-12">
-                        <h2>Results</h2>
                         <div id="search-output"></div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-8">
-                <h2>Tree</h2>
-                <div id="treeview-searchable" class=""></div>
-            </div>
-
         </div>
     </div>
     <script src="./js/jquery.js"></script>
@@ -166,7 +175,7 @@
                                             },
                                             {
                                                 text: 'HAR-ENCEINTE CLIP 2 NOIRE - 391704/1',
-                                                
+
                                                 href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=391704&variantNo=1&bundleNo=1&language=fr'
                                             }
                                         ]
@@ -290,10 +299,12 @@
                 };
                 var results = $searchableTree.treeview('search', [pattern, options]);
 
-                var output = '<p>' + results.length + ' matches found</p>';
+                var output = '<ul class="list-group">';
+                output += '<li class="list-group-item list-group-item-info">' + results.length + ' matches found</li>';
                 $.each(results, function(index, result) {
-                    output += '<p>- ' + result.text + '</p>';
+                    output += '<li class="list-group-item">' + result.text + '</li>';
                 });
+                output += '</ul>'
                 $('#search-output').html(output);
             }
 
