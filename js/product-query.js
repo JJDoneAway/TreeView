@@ -1,6 +1,5 @@
 $(function() {
 
-
     var $searchableTree = $('#treeview-searchable').treeview({
         color: "#428bca",
         expandIcon: 'glyphicon glyphicon-chevron-right',
@@ -35,6 +34,5 @@ $(function() {
         $('#input-search').val('');
         $('#search-output').html('');
     });
-
 
 });

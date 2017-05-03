@@ -585,12 +585,12 @@
 			if (_this.options.enableLinks && node.href) {
 				// Add hyperlink
 				treeItem
-					.append($(_this.template.link)
-						.attr('href', node.href)
-					);
-				treeItem
 					.append($(_this.template.linkText)
 						.append('  ' + node.text + '  ')
+					);
+				treeItem
+					.append($(_this.template.link)
+						.attr('href', node.href).append(node.solr ? 'Solr >>' : 'cache >>')
 					);
 			}
 			else {
@@ -694,8 +694,8 @@
 		item: '<li class="list-group-item"></li>',
 		indent: '<span class="indent"></span>',
 		icon: '<span class="icon"></span>',
-		linkText: '<span></span>',
-		link: '<a href="#" class="btn btn-default" target="_blank">Go to</a>',
+		linkText: '<span"></span>',
+		link: '<a style="float: right;" href="#"  target="_blank"></a>',
 		badge: '<span class="badge"></span>'
 	};
 
