@@ -5,7 +5,8 @@ $(function() {
         expandIcon: 'glyphicon glyphicon-chevron-right',
         collapseIcon: 'glyphicon glyphicon-chevron-down',
         data: articleData,
-        enableLinks: true
+        enableLinks: true,
+        showTags: true
     });
 
     var search = function(e) {
@@ -33,6 +34,10 @@ $(function() {
         $searchableTree.treeview('clearSearch');
         $('#input-search').val('');
         $('#search-output').html('');
+    });
+
+    $('#btn-collaps-tree').on('click', function(e) {
+        $searchableTree.treeview('collapseAll', { silent: true });
     });
 
 });

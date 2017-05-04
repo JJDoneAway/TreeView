@@ -695,7 +695,7 @@
 		indent: '<span class="indent"></span>',
 		icon: '<span class="icon"></span>',
 		linkText: '<span"></span>',
-		link: '<a style="float: right;" href="#"  target="_blank"></a>',
+		link: '<a style="float: right; margin-left: 10px" href="#"  target="_blank"></a>',
 		badge: '<span class="badge"></span>'
 	};
 
