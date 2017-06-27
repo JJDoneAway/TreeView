@@ -102,7 +102,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"679"+AND+dynLong_merchGroup:"15"+AND+dynLong_merchGroupSub:"25"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -370,7 +370,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"679"+AND+dynLong_merchGroup:"25"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -505,7 +505,7 @@ var articleData = [
                             {
                                 text: 'ON-EAR HEADPHONES',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"40"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -726,7 +726,7 @@ var articleData = [
                             {
                                 text: 'MICRO STEREO SYSTEM',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"15"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -742,6 +742,10 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122923&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
+                                        text: 'PHI3 MICROCHAINMCM772 - 634420/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=634420&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
                                         text: 'SCO-MICRO CH. B8 BK - 127274/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=127274&variantNo=1&bundleNo=1&language=fr'
                                     },
@@ -754,12 +758,8 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=391711&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'PHI-CHAINE PLATE BTM2460/12 - 176483/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176483&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'SAM-MICRO CHAINE DVD MM-D430D - 128377/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128377&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'PHI-CHAIN AUDIO MCM302 - 634530/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=634530&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SAM-MICRO CHAINE MM-E320 - 138551/1',
@@ -772,6 +772,10 @@ var articleData = [
                                     {
                                         text: 'LG-MICROCHAINE CD FA 164 - 660659/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=660659&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'LG-MICRO CHAINEFA163 - 669990/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=669990&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'LG3 MICROCHAINEMP3 XA63 - 624737/1',
@@ -804,10 +808,6 @@ var articleData = [
                                     {
                                         text: 'LG3 MICROCHAINEXC102 - 325652/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=325652&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'PHI3 MICROCHAINMCD288 - 322144/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=322144&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             },
@@ -995,7 +995,7 @@ var articleData = [
                             {
                                 text: 'DISCO LIGHTS',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"45"+AND+dynLong_merchGroupSub:"20"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -1195,12 +1195,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=663162&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'IBI-TABLE MIXAGE MX801 - 171430/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=171430&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'EXP3 TABLE MIX J.PACK SX700K - 634397/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=634397&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'IBI-TABLE MIXAGE MX801 - 171430/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=171430&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'EXP2 TABLE MIX 002A - 209001/1',
@@ -1235,7 +1235,7 @@ var articleData = [
                             {
                                 text: 'OTHER DISCO ELEMENTS',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"45"+AND+dynLong_merchGroupSub:"35"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -1352,7 +1352,7 @@ var articleData = [
                             {
                                 text: 'OUTDOOR SPEAKERS',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -1606,7 +1606,7 @@ var articleData = [
                             {
                                 text: 'CORDLESS TELEPHONE / WIRELESS TELEPHONE',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"15"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -1792,7 +1792,7 @@ var articleData = [
                             {
                                 text: 'BATTERY, PHONE CHARGER',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"45"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -1900,12 +1900,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=624944&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'JAB-OREIL BLTH WAVE+CHILL GRT - 127036/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=127036&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'JABRA-BOX - 136746/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=136746&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'JAB-OREIL BLTH WAVE+CHILL GRT - 127036/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=127036&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'KIT OREILLETTE NANO BT - 248813/1',
@@ -1944,116 +1944,112 @@ var articleData = [
                             {
                                 text: 'COVERS',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"30"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
-                                        text: 'RI FAC-ETUI FOLIO NOIR IPHONE 6 - 165960/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165960&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'WIK-COVER BACK FOLIO WAX CORAI - 161969/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161969&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI MUV-MIP COQUE FOLIO IPH 6 CRYS - 165370/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165370&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI SC-FOLIO UNIV BLEU M - 178068/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178068&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-COQUE CRYSTAL 360 S7 EDGE - 382249/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382249&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BMW-ETUI FOLIO DEBOSSED IPH6+ - 165956/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165956&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-COQUE VIDEO IPHONE 4/4S - 133339/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133339&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'ACER-FLIP COVER Z220 NOIR - 171870/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=171870&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-ETUI CLAPET BLANC IPH5 - 140427/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=140427&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MUV-ETUI CLAPET BLC S3 MINI - 142806/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=142806&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MAC-ETUI SLIM CLAPET IPH 6 NOIR - 179491/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=179491&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BMW-COQUE DEBOSSED IPH 6 NOIR - 165953/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165953&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-COQUE ROSE IPHONE 4/4S - 133336/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133336&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI MUV-MIP COQUE FOLIO NOIR A3 - 168211/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=168211&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI FAC-ETUI FOLIO BLEU IPHONE 6 - 165962/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165962&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI MUV-ETUI CLAPET IPH4/4S NOIR - 178077/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178077&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CRE-ETUI UNIV VERTI BEIGE M - 133166/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133166&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI MINI-ETUI FOLIO CUIR IPH 6 NOI - 165969/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165969&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CRE-ETUI UNIV TISSU CHEVRON GR - 133172/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133172&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI SC-FOLIO UNIV ROSE L - 178013/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178013&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-ETUI CLAPET CUIR GALAXY S2 - 133331/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133331&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI SC-FOLIO UNIV NOIR L - 178023/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178023&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM-S VIEW COVER SILVER S7 EDGE - 382219/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382219&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MUV-ETUI UNIV VERTICAL TAILLE - 131764/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=131764&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI MUV-COQUE CRYSTAL SOFT 5S/SE - 383767/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=383767&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI SC-FOLIO UNIV ORANGE M - 178002/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178002&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BMW-ETUI FOLIO CUIR RAYE IPH6 - 165957/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165957&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MUV-ETUI CLAPET NOIR GALAXY S3 - 139751/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=139751&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI MINI-ETUI FOLIO CUIR IPH6+ NOI - 165970/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165970&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MUV-ETUI UNIV HORIZ TAILLE M - 131763/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=131763&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'FER-ETUI FOLIO CUIR IPH 6 ROUG - 165967/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165967&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI FER-COQUE FIORANO CUIR IPH + N - 165964/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165964&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'ECHO-COQUE TRANS SMART 4G - 387093/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=387093&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MUV-ETUI CLAPET NOIR S3 MINI - 142808/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=142808&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MINI-ETUI FOLIO CUIR IPH6+ ROU - 165971/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165971&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI MUV-BUMPER NOIR + FILM IPH 4-4S - 178078/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=178078&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'ECHO-COQUE TRANS ECHO NOTE - 389282/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=389282&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BMW-ETUI FOLIO DEBOSSED IPH6 N - 165955/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165955&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV-ETUI CLAPET NOIR IPH5 - 140429/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=140429&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI FAC-ETUI FOLIO ROSE IPHONE 6 - 165963/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165963&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             },
                             {
                                 text: 'HANDS-FREE ACCESSORIES',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"40"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
-                                    {
-                                        text: 'OZA KIT IPHONE - 122409/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122409&variantNo=1&bundleNo=1&language=fr'
-                                    },
                                     {
                                         text: 'CHARG. ALLUME CIGARE SONY ERI - 637281/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637281&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CHARG. ALLUME CIGARE SAMSUNG - 637278/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637278&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'JAB-KIT MAIN LIBRE TOUR - 177212/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177212&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'CHARG. ALLUME CIGARE NOKIA - 637279/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637279&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'CHARG. ALLUME CIGARE SAMSUNG - 637272/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637272&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'BLACKBERRY CHARG AUTO 12V - 122942/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122942&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SUP-KIT MAINS LIBRES HD - 129613/1',
@@ -2068,16 +2064,20 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670061&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'JAB-KIT M.LIB FREEWAY+CHILL GR - 137691/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=137691&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SEN KIT PIETON IPHONE/IPOD - 126971/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=126971&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'JAB-KIT MAIN LIBRE DRIVE - 168267/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=168267&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SUPERTOOTH KIT ML BUDDY - 121818/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=121818&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'NEO-SUPPORT TEL VOITURE UNIVER - 153907/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=153907&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'MCL-CHARGEUR DE VOITURE USB - 129580/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=129580&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SUPPORT GEO TETRAX COLORIS - 661971/1',
@@ -2088,16 +2088,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=324092&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'GPS CONNECTIQUE+SUP POUR TOSH - 271799/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=271799&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'CHARG. ALLUME CIGARE LG - 637285/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637285&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CHARG. ALLUME CIGARE MINI USB - 637286/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637286&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'GPS CONNECTIQUE+SUP POUR TOSH - 271799/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=271799&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'BLU-SUPPORT UNIV VOITURE SMART - 134777/1',
@@ -2110,6 +2106,10 @@ var articleData = [
                                     {
                                         text: 'SUPPORT FIX TETRAX NOIR - 670059/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670059&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'KIT ML CK3100I PARROT - 624948/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=624948&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'MCL CHARGEUR DE VOITURE USB - 130329/1',
@@ -2172,12 +2172,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=140139&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'NEO-CABLE JACK MALE-MALE 1 ,5M - 161608/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161608&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'MCL-CORDON DE CHARGE USB - 129605/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=129605&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'NEO-CABLE JACK MALE-MALE 1 ,5M - 161608/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161608&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             },
@@ -2256,16 +2256,12 @@ var articleData = [
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
-                                        text: 'RI-PANZER PROTEC ECRAN IPHONE 6+ - 166501/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166501&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'PANZER-VERRE TREMPE 5/5S/SE/5C - 384975/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=384975&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI-PANZER PROTEC ECRAN IPHONE 6 - 166499/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166499&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI-PANZER PROTEC ECRAN IPHONE 6+ - 166501/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166501&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'MUV-2 PROTEC ECRAN GALAXY S3 - 139753/1',
@@ -2274,6 +2270,10 @@ var articleData = [
                                     {
                                         text: 'PANZER-VERRE TREMPE IPH7 - 392542/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=392542&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'RI-PANZER PROTEC ECRAN IPHONE 6 - 166499/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166499&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'MUV-2 PROTEC ECRAN IPHONE 5 - 140428/1',
@@ -2296,20 +2296,20 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=123852&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'RI-PANZER PROT ECRAN NOTE3 - 166502/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166502&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'ECHO-PROTEC ECRAN ECHO NOTE - 389281/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=389281&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MUV 2 PROTEC ECRAN IP4 - 123785/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=123785&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'RI-PANZER PROT ECRAN NOTE3 - 166502/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=166502&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'MUV-2 PROTEC ECRAN S3 MINI - 142553/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=142553&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'MUV 2 PROTEC ECRAN IP4 - 123785/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=123785&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'PANZER-VERRE TREM 6S PREMIUM N - 384972/1',
@@ -2369,88 +2369,88 @@ var articleData = [
                             {
                                 text: 'MOBILE PHONE',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"677"+AND+dynLong_merchGroup:"15"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
-                                        text: 'SAMSUNG GSM E2370 - 128420/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128420&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MTT-GSM SUPER ROBUST IP68+CART - 139054/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=139054&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MTT-GSM BAZIC V2 IP67 - 129061/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=129061&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'CAT-GSM B30 - 175476/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=175476&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'NOKIA GSM N2220G - 128418/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128418&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'ECHO-GSM SHOCK DS ROB 32MO - 180479/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=180479&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CRO-GSM SHARK V2 - 164433/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=164433&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAMSUNG M110 - 604288/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=604288&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CRO-GSM SHARK V2 - 164394/2',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=164394&variantNo=2&bundleNo=1&language=fr'
+                                        text: 'MTT GSM BAZIC IP67 - 126430/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=126430&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MOTOROLA U9 - 624889/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=624889&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'GSM NOKIA 1662 - 670088/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670088&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'ECHO-GSM CLAP + DS 32MO NR - 389267/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=389267&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'WIKO-GSM KAR 3 NOIR LS 1GO - 161219/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161219&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAMSUNG GSM E2550N - 128421/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128421&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-GSM E1200 BLISTER - 170339/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=170339&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SGH-E740 FUSHIASAMSUNG - 604281/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=604281&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-GSM NU E1190 NOIR - 136096/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=136096&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'PACK NOKIA 1209LS - 634761/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=634761&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAMSUNG B2700 - 670060/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670060&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'WIKO-GSM RIFF NOIR - 170969/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=170969&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'NOK-GSM NU C2-05 GRIS FONCE - 136098/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=136098&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'LG VIEWTY - 325735/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=325735&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'ECHO-GSM CLAPET DS 32MO NR - 180992/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=180992&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MOTOROLA Z3 - 249153/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=249153&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'CAT-GSM B100 128 MO - 165245/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=165245&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAMSUNG GSM E1150S - 128415/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128415&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'GSM SAMSUNG B130 - 670105/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670105&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'NOK-GSM NU C2-03 NOIR - 134495/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=134495&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAMS-GSM SOLID B2700 - 637276/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=637276&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM GSM E2550 NOIR LS - 124027/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=124027&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MTT-GSM ROBUST + NOIR - 131897/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=131897&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM-GSM AZERTY CHAT 357 - 145797/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=145797&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'MTT-GSM NU WATERPROOF IP67 - 135724/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=135724&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM-GSM NU E2370 NOIR - 133822/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=133822&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'PACK SAMSUNG B130 LS - 624967/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=624967&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'GSM N2330 NOKIA - 670080/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=670080&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SP P SAM MOBILE WAVE S575 - 129453/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=129453&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CRO-GSM SPIDER X1 - 164782/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=164782&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-GSM XCOVER 550 128 MO - 173280/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=173280&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             },
@@ -2752,9 +2752,13 @@ var articleData = [
                             {
                                 text: 'CAMERA BAGS',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"672"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"15"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
+                                    {
+                                        text: 'CAS-ETUI APN BRIDGE DCB-304K NOIR - 145827/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=145827&variantNo=1&bundleNo=1&language=fr'
+                                    },
                                     {
                                         text: 'CAS-SAC APN REFLEX TBC410 - 136478/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=136478&variantNo=1&bundleNo=1&language=fr'
@@ -2764,12 +2768,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=141291&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CAS-HOUSSE CAMES EHC103K - 137609/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=137609&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'CAS-ETUI APN COMP UNZB202 V - 141296/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=141296&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'CAS-HOUSSE CAMES EHC103K - 137609/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=137609&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'CAS-ETUI APN REFL DCB306K MOY MOD - 128088/1',
@@ -2784,10 +2788,6 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128372&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'LOW-SAC APN REFLEX ADVEN 140 MOY MOD - 128373/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128373&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'CAS- SAC A DOS APN REFLEX+OBJECTIFS - 123662/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=123662&variantNo=1&bundleNo=1&language=fr'
                                     },
@@ -2800,36 +2800,36 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128368&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
+                                        text: 'CASE LOG-SACOCHCAMESC VERTICAL - 668500/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=668500&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
                                         text: 'CASE LOG-SACOCHAPN MOYEN M - 668504/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=668504&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'CASE LOG SACOCHAPN REFLEX - 668502/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=668502&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'LOW-SAC APN DUBLIN 10 PT MOD - 128370/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128370&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CAS-HOUSSE NEO REFLEX SHC101K - 137611/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=137611&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'CAS-ETUI APN DCB-302K NOIR - 143197/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=143197&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CAS-ETUI APN COMP QPB201K PT MOD - 128082/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128082&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'CAS-HOUSSE NEO REFLEX SHC101K - 137611/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=137611&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'CAS-ETUI APN COMP QP202K MOY MOD - 128087/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128087&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'CAS-ETUI APN/CAM COMP QPB203K GD MOD - 128182/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128182&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'CAS-ETUI APN COMP UNZB202 ROUGE - 141302/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=141302&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'CAS-ETUI APN COMP QPB201K PT MOD - 128082/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128082&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'CAS-ETUI APN COMP UNZB202N - 141308/1',
@@ -2861,7 +2861,7 @@ var articleData = [
                             {
                                 text: 'DIGITAL CAMERA',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"672"+AND+dynLong_merchGroup:"25"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -3040,7 +3040,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"669"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -3052,8 +3052,8 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167156&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'TEL-AFF DYNAMIQUE CLASSIC 26CM - 176256/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176256&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-AFFICH DYN SM400MX-2 - 671149/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=671149&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SAM-AFF DYNAMIQUE DM40E 101CM - 181030/1',
@@ -3064,24 +3064,20 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=175435&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM-CTM ROUEN LH32HBPLBC/EN - 144139/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=144139&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'TEL-AFF DYN MINI KIOSQUE 26CM - 176259/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176259&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'SAM-AFF DYNAMIQUE DB22D 55CM - 167124/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167124&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'TEL-AFF DYN STOP RAYON BOUTON - 176254/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176254&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'SAM-AFF DYNAMIQUE DM40D 101CM - 167122/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167122&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'SAM-AFF DYNAMIQUE DM32E 82CM - 175434/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=175434&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'SAM-AFF DYNAMIQUE ME40C 101CM - 152743/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=152743&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SAM-AFF DYNAMIQUE DB32D 82 CM - 166634/1',
@@ -3090,6 +3086,14 @@ var articleData = [
                                     {
                                         text: 'TEL-AFF DYNAMIQUE PERSO 26CM - 176262/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176262&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'SAM-AFF DYNAMIQUE MD40C 101CM - 152741/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=152741&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'QI BOX - 669976/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=669976&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'TEL-AFF DYN STOP RAYON CAPTEUR - 176255/1',
@@ -3108,20 +3112,16 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167125&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'TEL-AFF DYNAMIQUE CLASSIC 18CM - 176258/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176258&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'SAM-AFF DYNAMIQUE DB40E 101CM - 175432/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=175432&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SAM-AFF DYNAMIQUE MD32C 82CM - 152737/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=152737&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-AFF DYNAMIQUE DB32E 82CM - 175426/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=175426&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'TEL-AFF DYNAMIQUE PREMIUM 26CM - 176263/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176263&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'SAM-AFF DYNAMIQUE MD32C 82CM - 152737/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=152737&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             }
@@ -3241,12 +3241,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=624840&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'LG3 ENREGISTREURH266 - 268096/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=268096&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'SAM3 ENREGISTREDVD-SH830 - 267629/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=267629&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'LG3 ENREGISTREURH266 - 268096/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=268096&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SAM3 ENREGDVD SH873 - 624782/1',
@@ -3294,7 +3294,7 @@ var articleData = [
                             {
                                 text: 'HOME CINEMA KIT',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"668"+AND+dynLong_merchGroup:"70"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -3487,12 +3487,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=394668&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'INST- ECRAN MOTORISE 200C3 - 168359/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=168359&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'INS-ECRAN VIDEOPRO 4/3 ELEC - 128242/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128242&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'INST- ECRAN MOTORISE 200C3 - 168359/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=168359&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'LUM- ECRAN MOTORISE EMBASSY 2 240C - 156464/1',
@@ -3515,12 +3515,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=120956&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'LUMENE PLAZZA ECRAN MURAL VIDEOPROJ 1 - 120955/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=120955&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'INST-ECRAN INSMAN 240C3 - 386882/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=386882&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'LUMENE PLAZZA ECRAN MURAL VIDEOPROJ 1 - 120955/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=120955&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'INST-ECRAN TREPIED INSTRI170 - 386883/1',
@@ -3681,7 +3681,7 @@ var articleData = [
                             {
                                 text: 'FIXED TV WALL SUPPORT',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"671"+AND+dynLong_merchGroup:"10"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -3829,88 +3829,88 @@ var articleData = [
                             {
                                 text: 'DESKTOP PROJECTOR',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"672"+AND+dynLong_merchGroup:"10"+AND+dynLong_merchGroupSub:"5"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
-                                        text: 'NEC-VIDEOPROJECTEUR NP 115 - 660622/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=660622&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'EPSON-VIDEOPROJ EH-TW570 - 167093/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167093&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'LOT-VIDEOP EH-TW570+ECRAN TREPIED 170 - 386914/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=386914&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EH-TW570 + ECRAN KDO - 174182/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=174182&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ W700 - 139159/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=139159&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'NEC-VIDEOPROJECTEUR V260 - 140687/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=140687&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS524 - 177248/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177248&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EB-S18 + ECRAN KDO - 174180/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=174180&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS517 - 147932/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=147932&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BENQ-VIDEOPROJ TW523P - 171533/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=171533&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'EPSON-VIDEOPROJ EB-U04 + SAC - 382118/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382118&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'BENQ-VIDEOPROJECTEUR MX522P - 155311/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=155311&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'SAM RETRO 127CMSP50L46HV - 208047/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=208047&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'EPSON-VIDEOPROJ EB-S18 - 167092/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=167092&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ GP2 - 130514/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=130514&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BENQ-VIDEOPROJ MX613+CLE WIFI - 132484/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=132484&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS517H SVGA - 382619/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382619&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EB-S31+ECRAN 170 - 386904/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=386904&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'EPSON-VIDEOPROJ EB-S31 - 177632/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177632&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EH-TW570+ECRAN 170 - 386911/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=386911&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ W700+ - 143762/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=143762&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BENQ-VIDEOPROJ MW529 WXGA - 382621/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382621&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ W750 - 152998/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=152998&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'NEC-VIDEOPROJECTEUR V260 - 132468/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=132468&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'BENQ-VIDEOPROJ MS521P - 154011/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=154011&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'INF3 VIDEOPROJ X16+BOIT WIFI - 634421/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=634421&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS500H - 143794/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=143794&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BENQ-VIDEOPROJ TH670 FULL HD - 177869/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177869&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS612ST - 128184/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=128184&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EB-S31+ECRAN TREPIED 170 - 386908/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=386908&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJ MS500+ - 140986/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=140986&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'LOT-VIDEOP EBS18 + MODULE WIFI - 177371/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177371&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'BENQ-VIDEOPROJECTEUR MS513 - 130559/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=130559&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'BENQ-VIDEOPROJ MX518 - 143793/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=143793&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'LOT-VIDEOP EH-TW570+ 2XLUNETTES 3D - 177633/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177633&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'SAM VDP L201 BLANC - 122694/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122694&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'BENQ- VIDEOPROJ MP525V - 129534/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=129534&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'BENQ-VIDEOPROJ MX520 - 154009/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=154009&variantNo=1&bundleNo=1&language=fr'
                                     }
                                 ]
                             },
@@ -4021,7 +4021,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"45"+AND+dynLong_merchGroupSub:"15"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -4053,12 +4053,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=292874&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'JEL VISUNET DUO - 239301/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=239301&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'JEL BOOSTAIR 650ML - 308040/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=308040&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'SMARTNET - 382475/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382475&variantNo=1&bundleNo=1&language=fr'
+                                        text: 'JEL VISUNET DUO - 239301/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=239301&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'JEL CD DVD NET LINGETTES (X100 - 260188/1',
@@ -4069,12 +4069,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=635367&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'DECOLNET - 382468/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=382468&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'SIG 100 LINGETTES NETTOYANTES - 635362/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=635362&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'JEL BUROCLEAN 650ML - 248059/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=248059&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'JEL 10 CHIFFONS OUATES NETTOYANTS - 308088/1',
@@ -4089,16 +4089,16 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=135239&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'JEL GAZ SEC TOUTES POSITIONS - 145274/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=145274&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'JELT VISUGREEN - 135272/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=135272&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'SIG GAZ DEPOUSSIERANT MULTI POSITION - 635337/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=635337&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'JEL BOOSTAIR TTES POSITIONS - 281764/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=281764&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'JEL GAZ SEC ODP 0 650ML - 239316/1',
@@ -4191,7 +4191,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"35"+AND+dynLong_merchGroupSub:"30"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -4472,7 +4472,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"674"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"45"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -4508,6 +4508,10 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177947&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
+                                        text: 'MIC SURFACE BOOK CORE 7 , 256 GO - 381656/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=381656&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
                                         text: 'ASUS-PC 12 -T200TA-CP016H - 168825/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=168825&variantNo=1&bundleNo=1&language=fr'
                                     },
@@ -4528,12 +4532,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177910&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'MIC SURFACE PRO 4 , CORE I5 , 8GO - 177916/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177916&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'MIC SURFACE 3 4G - 64GO (ATOM X7 , 4GO DE RAM) - 176679/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=176679&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'MIC SURFACE BOOK CORE 7 , 512 GO - 381663/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=381663&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'T100TA-DK066H (Q3 2014) - 161356/1',
@@ -4546,10 +4550,6 @@ var articleData = [
                                     {
                                         text: 'MIC SURFACE PRO 4 , CORE I7 , 16 GO - 177946/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177946&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
-                                        text: 'MIC SURFACE PRO 4 , I7 , 16 GO - 177948/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=177948&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'HP 11-G080SF ENVY X2 PC - 140638/1',
@@ -4570,7 +4570,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"60"+AND+dynLong_merchGroupSub:"20"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -4689,7 +4689,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"30"+AND+dynLong_merchGroupSub:"35"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -4827,12 +4827,12 @@ var articleData = [
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=672723&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
-                                        text: 'NET- CLE USB WIFI N150 - 161371/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161371&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'NET CLE USB WIFI WNA3100 - 124695/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=124695&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'NET- CLE USB WIFI N150 - 161371/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=161371&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'TRE CLE NAN USB WIFI N 150 MBP - 127474/1',
@@ -4999,7 +4999,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"55"+AND+dynLong_merchGroupSub:"35"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -5207,7 +5207,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"25"+AND+dynLong_merchGroupSub:"15"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -5540,7 +5540,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"35"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -5633,7 +5633,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"25"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -5726,7 +5726,7 @@ var articleData = [
                             {
                                 text: '-',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"675"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
@@ -6050,16 +6050,16 @@ var articleData = [
                             {
                                 text: 'SD CARF',
                                 solr: true,
-                                tags: ['20'],
+                                tags: ['>20'],
                                 href: 'http://solr-artcache.was.metro.info:20100/solr-artcache/all/mcc/v1/solr-artcache_all_mcc_v3/select?q=dynLong_merchGroupMain:"676"+AND+dynLong_merchGroup:"5"+AND+dynLong_merchGroupSub:"10"+&fq=scope:+"erp_ihds_tree"+&fq=country:+"fr"+&fq=bundleNo:"1"+&rows=20&wt=json&indent="true"',
                                 nodes: [
                                     {
-                                        text: 'SIGMA CARTE SDHC 16GB C4 - 122910/1',
-                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122910&variantNo=1&bundleNo=1&language=fr'
-                                    },
-                                    {
                                         text: 'INT-CARTE SDHC 32GB ULTIMA - 139253/1',
                                         href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=139253&variantNo=1&bundleNo=1&language=fr'
+                                    },
+                                    {
+                                        text: 'SIGMA CARTE SDHC 16GB C4 - 122910/1',
+                                        href: 'http://iappl4.mgi.de:11100/artcache/all/mcc/v1/articlecache/documents/fr/erp_ihds_tree?mmsArtNo=122910&variantNo=1&bundleNo=1&language=fr'
                                     },
                                     {
                                         text: 'PNY-CARTE SD 4GB HC - 327832/1',
